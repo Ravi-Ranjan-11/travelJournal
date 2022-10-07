@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    align-items: center;
+    margin-top: 5.625rem;
+    margin-left: 2.5rem;
+    justify-content: space-between;
+
+    font-size: 15px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-content: space-between;
+    margin: 0px 3.688;
+}
+
+a {
+    color: #918E9B;
+}
+
+
+.card--about {
+    margin-top: 0.938rem;
+    margin-left: 3.75rem;
+}
+
+.card--img { 
+    width: 10.625rem;
+    height: auto;
+}
+
+p {
+    max-width: 800px;
+}
